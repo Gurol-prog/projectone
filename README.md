@@ -1,26 +1,18 @@
-# ProjectOne - Sosyal Medya API
+# ProjectOne - Yorum Sistemi API
 
 ## Kurulum
 
-### 1. Proje Klonlama
 
-git clone https://github.com/yourusername/projectone.git
-cd projectone
+# appsettings dosyasını Kendi değerlerinizi girin
 
-### 2. Yapılandırma
-# appsettings dosyasını kopyala
-cp appsettings.Example.json appsettings.json
 
-# Kendi değerlerinizi girin
-nano appsettings.json
+### 1. Gereksinimler
 
-### 3. Gereksinimler
-
-.NET 8.0+
+.NET 7.0.5+
 MongoDB
 Visual Studio veya VS Code
 
-### 4. Çalıştırma
+### 2. Çalıştırma
 
 dotnet restore
 dotnet run
@@ -51,12 +43,21 @@ Kullanıcı yetkilendirme sistemi
 ## 4. Klasör Yapısını Düzenleyin
 
 ProjectOne/
+
 ├── Controllers/
+
 ├── Services/
+
 ├── Models/
+
 ├── Dtos/
+
 ├── Config/
+
 ├── appsettings.Example.json
+
 ├── .gitignore
+
 ├── README.md
+
 └── Program.cs
