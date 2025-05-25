@@ -1,0 +1,50 @@
+# Build sonuçları
+bin/
+obj/
+out/
+build/
+
+# Visual Studio dosyaları
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Hassas dosyalar
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Log dosyaları
+*.log
+logs/
+
+# Temporary dosyalar
+*.tmp
+*.temp
+
+# NuGet
+packages/
+*.nupkg
+
+# Database dosyaları
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Cache dosyaları
+node_modules/
+.nuget/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+*.sln
+AdminLogin-MongoDb.csproj
